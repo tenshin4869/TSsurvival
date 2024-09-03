@@ -1,7 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var _1_1 = require("../function/1");
-(0, _1_1.logMessage)("Hello Typescript");
-(0, _1_1.logMessage2)("Hello Typescript");
-(0, _1_1.logMessage3)("Hello Typescript");
-(0, _1_1.logMessage4)("Hello Typescript");
+var parameters_1 = require("../function/parameters");
+// logMessage("Hello Typescript");
+// logMessage2("Hello Typescript");
+// logMessage3("Hello Typescript");
+// logMessage4("Hello Typescript");
+(0, parameters_1.isUserSignedIn)("ABC", "Tenshin");
+(0, parameters_1.isUserSignedIn)("DEF");
+(0, parameters_1.isUserSignedIn2)("ABC");
+var sum = (0, parameters_1.sumPrice)(100, 200, 300, 400, 500);
+console.log("Sum is ", sum);
