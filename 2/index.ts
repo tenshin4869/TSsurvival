@@ -27,5 +27,9 @@
 //objectSample();
 
 //型エイリアスの定義
-import typeAliasSample from "../object/alias";
-typeAliasSample();
+// import typeAliasSample from "../object/alias";
+// typeAliasSample();
+
+//配列の型定義について
+import arraySample from "../array/array";
+arraySample();

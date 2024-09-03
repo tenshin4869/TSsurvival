@@ -24,5 +24,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import objectSample from "../object/object";
 //objectSample();
 //型エイリアスの定義
-var alias_1 = require("../object/alias");
-(0, alias_1.default)();
+// import typeAliasSample from "../object/alias";
+// typeAliasSample();
+//配列の型定義について
+var array_1 = require("../array/array");
+(0, array_1.default)();
