@@ -10,8 +10,6 @@
 //   sumPrice,
 // } from "../function/parameters";
 
-import objectSample from "../object/object";
-
 // // logMessage("Hello Typescript");
 // // logMessage2("Hello Typescript");
 // // logMessage3("Hello Typescript");
@@ -25,4 +23,9 @@ import objectSample from "../object/object";
 // console.log("Sum is ", sum);
 
 //オブジェクトの型定義
-objectSample();
+// import objectSample from "../object/object";
+//objectSample();
+
+//型エイリアスの定義
+import typeAliasSample from "../object/alias";
+typeAliasSample();

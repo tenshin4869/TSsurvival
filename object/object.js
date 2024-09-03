@@ -25,5 +25,14 @@ function objectSample() {
     };
     human.gender = "male";
     console.log("Object object sample 3: ", human);
+    //オブジェクトが複数のプロパティを持つ可能性がある場合
+    //インデックスシグネチャ
+    var capitals = {
+        Japan: "Tokyo",
+        Korea: "Seoul",
+    };
+    capitals.China = "Beijing";
+    capitals.Canada = "Ottawa";
+    console.log("Object object sample 4: ", capitals);
 }
 exports.default = objectSample;

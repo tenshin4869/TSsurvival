@@ -11,7 +11,6 @@
 //   sumPrice,
 // } from "../function/parameters";
 Object.defineProperty(exports, "__esModule", { value: true });
-var object_1 = require("../object/object");
 // // logMessage("Hello Typescript");
 // // logMessage2("Hello Typescript");
 // // logMessage3("Hello Typescript");
@@ -22,4 +21,8 @@ var object_1 = require("../object/object");
 // const sum = sumPrice(100, 200, 300, 400, 500);
 // console.log("Sum is ", sum);
 //オブジェクトの型定義
-(0, object_1.default)();
+// import objectSample from "../object/object";
+//objectSample();
+//型エイリアスの定義
+var alias_1 = require("../object/alias");
+(0, alias_1.default)();
