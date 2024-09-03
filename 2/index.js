@@ -1,12 +1,25 @@
 "use strict";
+// import {
+//   logMessage,
+//   logMessage2,
+//   logMessage3,
+//   logMessage4,
+// } from "../function/1";
+// import {
+//   isUserSignedIn,
+//   isUserSignedIn2,
+//   sumPrice,
+// } from "../function/parameters";
 Object.defineProperty(exports, "__esModule", { value: true });
-var parameters_1 = require("../function/parameters");
-// logMessage("Hello Typescript");
-// logMessage2("Hello Typescript");
-// logMessage3("Hello Typescript");
-// logMessage4("Hello Typescript");
-(0, parameters_1.isUserSignedIn)("ABC", "Tenshin");
-(0, parameters_1.isUserSignedIn)("DEF");
-(0, parameters_1.isUserSignedIn2)("ABC");
-var sum = (0, parameters_1.sumPrice)(100, 200, 300, 400, 500);
-console.log("Sum is ", sum);
+var object_1 = require("../object/object");
+// // logMessage("Hello Typescript");
+// // logMessage2("Hello Typescript");
+// // logMessage3("Hello Typescript");
+// // logMessage4("Hello Typescript");
+// isUserSignedIn("ABC", "Tenshin");
+// isUserSignedIn("DEF");
+// isUserSignedIn2("ABC");
+// const sum = sumPrice(100, 200, 300, 400, 500);
+// console.log("Sum is ", sum);
+//オブジェクトの型定義
+(0, object_1.default)();
