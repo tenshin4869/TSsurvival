@@ -31,7 +31,12 @@
 // typeAliasSample();
 
 //配列の型定義について
-import arraySample from "../array/array";
-import tupleSample from "../array/tuple";
-arraySample();
-tupleSample();
+// import arraySample from "../array/array";
+// import tupleSample from "../array/tuple";
+// arraySample();
+// tupleSample();
+
+//ジェネリック型とポリモーフィズム
+
+import genericsBasicSample from "../generics/basic";
+genericsBasicSample();

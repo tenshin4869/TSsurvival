@@ -27,7 +27,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import typeAliasSample from "../object/alias";
 // typeAliasSample();
 //配列の型定義について
-var array_1 = require("../array/array");
-var tuple_1 = require("../array/tuple");
-(0, array_1.default)();
-(0, tuple_1.default)();
+// import arraySample from "../array/array";
+// import tupleSample from "../array/tuple";
+// arraySample();
+// tupleSample();
+//ジェネリック型とポリモーフィズム
+var basic_1 = require("../generics/basic");
+(0, basic_1.default)();
