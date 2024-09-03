@@ -17,5 +17,13 @@ function objectSample() {
         name: "America",
     };
     console.log("Object object sample 2: ", country);
+    //オプショナルとreadonly
+    var human = {
+        age: 20,
+        lastName: "Yamada",
+        firstName: "Taro",
+    };
+    human.gender = "male";
+    console.log("Object object sample 3: ", human);
 }
 exports.default = objectSample;

@@ -22,4 +22,19 @@ export default function objectSample() {
   };
 
   console.log("Object object sample 2: ", country);
+
+  //オプショナルとreadonly
+  const human: {
+    age: number;
+    lastName: string;
+    readonly firstName: string;
+    gender?: string;
+  } = {
+    age: 20,
+    lastName: "Yamada",
+    firstName: "Taro",
+  };
+
+  human.gender = "male";
+  console.log("Object object sample 3: ", human);
 }
