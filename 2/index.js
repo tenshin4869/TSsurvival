@@ -28,4 +28,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // typeAliasSample();
 //配列の型定義について
 var array_1 = require("../array/array");
+var tuple_1 = require("../array/tuple");
 (0, array_1.default)();
+(0, tuple_1.default)();
